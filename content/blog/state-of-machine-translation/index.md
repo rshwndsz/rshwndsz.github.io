@@ -3,6 +3,7 @@ title: "A survey on Machine Translation"
 bibliography: bibliography.bib
 link-citations: true
 notes-after-punctuation: true
+description: A concise look at the history, current challenges and future directions of research in machine translation.
 ---
 
 ## Introduction
