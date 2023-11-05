@@ -1,0 +1,976 @@
+@article{zhang2020neural,
+  title={Neural machine translation: Challenges, progress and future},
+  author={Zhang, Jiajun and Zong, Chengqing},
+  journal={Science China Technological Sciences},
+  volume={63},
+  number={10},
+  pages={2028--2050},
+  year={2020},
+  publisher={Springer}
+}
+
+@article{maruf2021survey,
+  title={A survey on document-level neural machine translation: Methods and evaluation},
+  author={Maruf, Sameen and Saleh, Fahimeh and Haffari, Gholamreza},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={54},
+  number={2},
+  pages={1--36},
+  year={2021},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{stahlberg-byrne-2019-nmt,
+    title = "On {NMT} Search Errors and Model Errors: Cat Got Your Tongue?",
+    author = "Stahlberg, Felix  and
+      Byrne, Bill",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1331",
+    doi = "10.18653/v1/D19-1331",
+    pages = "3356--3362",
+    abstract = "We report on search errors and model errors in neural machine translation (NMT). We present an exact inference procedure for neural sequence models based on a combination of beam search and depth-first search. We use our exact search to find the global best model scores under a Transformer base model for the entire WMT15 English-German test set. Surprisingly, beam search fails to find these global best model scores in most cases, even with a very large beam size of 100. For more than 50{\%} of the sentences, the model in fact assigns its global best score to the empty translation, revealing a massive failure of neural models in properly accounting for adequacy. We show by constraining search with a minimum translation length that at the root of the problem of empty translations lies an inherent bias towards shorter translations. We conclude that vanilla NMT in its current form requires just the right amount of beam search errors, which, from a modelling perspective, is a highly unsatisfactory conclusion indeed, as the model often prefers an empty translation.",
+}
+
+@techreport{hassan2018achieving,
+  title={Achieving human parity on automatic chinese to english news translation},
+  author={Hassan, Hany and Aue, Anthony and Chen, Chang and Chowdhary, Vishal and Clark, Jonathan and Federmann, Christian and Huang, Xuedong and Junczys-Dowmunt, Marcin and Lewis, William and Li, Mu and others},
+  year={2018},
+  institution = {Microsoft Research},
+  url = {https://www.microsoft.com/en-us/research/publication/achieving-human-parity-on-automatic-chinese-to-english-news-translation/}
+}
+
+@article{wu2016google,
+title	= {Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation},
+author	= {Yonghui Wu and Mike Schuster and Zhifeng Chen and Quoc V. Le and Mohammad Norouzi and Wolfgang Macherey and Maxim Krikun and Yuan Cao and Qin Gao and Klaus Macherey and Jeff Klingner and Apurva Shah and Melvin Johnson and Xiaobing Liu and Łukasz Kaiser and Stephan Gouws and Yoshikiyo Kato and Taku Kudo and Hideto Kazawa and Keith Stevens and George Kurian and Nishant Patil and Wei Wang and Cliff Young and Jason Smith and Jason Riesa and Alex Rudnick and Oriol Vinyals and Greg Corrado and Macduff Hughes and Jeffrey Dean},
+year	= {2016},
+URL	= {https://research.google/pubs/pub45610},
+journal	= {CoRR},
+volume	= {abs/1609.08144}
+}
+
+
+@article{crego2016neural,
+  title={Neural machine translation from simplified translations},
+  author={Crego, Josep and Senellart, Jean},
+  year={2016}
+}
+
+@inproceedings{junczys-dowmunt-etal-2016-neural,
+    title = "Is Neural Machine Translation Ready for Deployment? A Case Study on 30 Translation Directions",
+    author = "Junczys-Dowmunt, Marcin  and
+      Dwojak, Tomasz  and
+      Hoang, Hieu",
+    booktitle = "Proceedings of the 13th International Conference on Spoken Language Translation",
+    month = dec # " 8-9",
+    year = "2016",
+    address = "Seattle, Washington D.C",
+    publisher = "International Workshop on Spoken Language Translation",
+    url = "https://aclanthology.org/2016.iwslt-1.5",
+    abstract = "In this paper we provide the largest published comparison of translation quality for phrase-based SMT and neural machine translation across 30 translation directions. For ten directions we also include hierarchical phrase-based MT. Experiments are performed for the recently published United Nations Parallel Corpus v1.0 and its large six-way sentence-aligned subcorpus. In the second part of the paper we investigate aspects of translation speed, introducing AmuNMT, our efficient neural machine translation decoder. We demonstrate that current neural machine translation could already be used for in-production systems when comparing words-persecond ratios.",
+}
+
+@inproceedings{levin-etal-2017-toward,
+    title = "Toward a full-scale neural machine translation in production: the Booking.com use case",
+    author = "Levin, Pavel  and
+      Dhanuka, Nishikant  and
+      Khalil, Talaat  and
+      Kovalev, Fedor  and
+      Khalilov, Maxim",
+    booktitle = "Proceedings of Machine Translation Summit XVI: Commercial MT Users and Translators Track",
+    month = sep # " 18 {--} " # sep # " 22",
+    year = "2017",
+    address = "Nagoya Japan",
+    url = "https://aclanthology.org/2017.mtsummit-commercial.5",
+    pages = "27--37",
+}
+
+@inproceedings{schmidt2018move,
+  title={How to move to neural machine translation for enterprise-scale programs—an early adoption case study},
+  author={Schmidt, Tanja and Marg, Lena},
+  booktitle=" Proceedings of the 21st Annual Conference of the European Association for Machine Translation",
+  month=may,
+  year={2018},
+  address="Alacant, Spain",
+  publisher={European Association for Machine Translation},
+  pages="309--313",
+  url = "http://rua.ua.es/dspace/handle/10045/76092"
+}
+
+@techreport{51503,
+title	= {Building Machine Translation Systems for the Next Thousand Languages},
+author	= {Ankur Bapna and Isaac Caswell and Julia Kreutzer and Orhan Firat and Daan van Esch and Aditya Siddhant and Mengmeng Niu and Pallavi Nikhil Baljekar and Xavier Garcia and Wolfgang Macherey and Theresa Breiner and Vera Saldinger Axelrod and Jason Riesa and Yuan Cao and Mia Chen and Klaus Macherey and Maxim Krikun and Pidong Wang and Alexander Gutkin and Apu Shah and Yanping Huang and Zhifeng Chen and Yonghui Wu and Macduff Richard Hughes},
+year	= {2022},
+institution	= {Google Research}
+}
+
+@inproceedings{papineni2002bleu,
+  title={Bleu: a method for automatic evaluation of machine translation},
+  author={Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing},
+  booktitle={Proceedings of the 40th annual meeting of the Association for Computational Linguistics},
+  pages={311--318},
+  year={2002}
+}
+
+@inproceedings{post-2018-call,
+    title = "A Call for Clarity in Reporting {BLEU} Scores",
+    author = "Post, Matt",
+    booktitle = "Proceedings of the Third Conference on Machine Translation: Research Papers",
+    month = oct,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W18-6319",
+    doi = "10.18653/v1/W18-6319",
+    pages = "186--191",
+    abstract = "The field of machine translation faces an under-recognized problem because of inconsistency in the reporting of scores from its dominant metric. Although people refer to {``}the{''} BLEU score, BLEU is in fact a parameterized metric whose values can vary wildly with changes to these parameters. These parameters are often not reported or are hard to find, and consequently, BLEU scores between papers cannot be directly compared. I quantify this variation, finding differences as high as 1.8 between commonly used configurations. The main culprit is different tokenization and normalization schemes applied to the reference. Pointing to the success of the parsing community, I suggest machine translation researchers settle upon the BLEU scheme used by the annual Conference on Machine Translation (WMT), which does not allow for user-supplied reference processing, and provide a new tool, SACREBLEU, to facilitate this.",
+}
+
+@inproceedings{koehn-knowles-2017-six,
+    title = "Six Challenges for Neural Machine Translation",
+    author = "Koehn, Philipp  and
+      Knowles, Rebecca",
+    booktitle = "Proceedings of the First Workshop on Neural Machine Translation",
+    month = aug,
+    year = "2017",
+    address = "Vancouver",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W17-3204",
+    doi = "10.18653/v1/W17-3204",
+    pages = "28--39",
+    abstract = "We explore six challenges for neural machine translation: domain mismatch, amount of training data, rare words, long sentences, word alignment, and beam search. We show both deficiencies and improvements over the quality of phrase-based statistical machine translation.",
+}
+
+@inproceedings{sennrich-zhang-2019-revisiting,
+    title = "Revisiting Low-Resource Neural Machine Translation: A Case Study",
+    author = "Sennrich, Rico  and
+      Zhang, Biao",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1021",
+    doi = "10.18653/v1/P19-1021",
+    pages = "211--221",
+    abstract = "It has been shown that the performance of neural machine translation (NMT) drops starkly in low-resource conditions, underperforming phrase-based statistical machine translation (PBSMT) and requiring large amounts of auxiliary data to achieve competitive results. In this paper, we re-assess the validity of these results, arguing that they are the result of lack of system adaptation to low-resource settings. We discuss some pitfalls to be aware of when training low-resource NMT systems, and recent techniques that have shown to be especially helpful in low-resource settings, resulting in a set of best practices for low-resource NMT. In our experiments on German{--}English with different amounts of IWSLT14 training data, we show that, without the use of any auxiliary monolingual or multilingual data, an optimized NMT system can outperform PBSMT with far less data than previously claimed. We also apply these techniques to a low-resource Korean{--}English dataset, surpassing previously reported results by 4 BLEU.",
+}
+
+@article{ranathunga2023neural,
+  title={Neural machine translation for low-resource languages: A survey},
+  author={Ranathunga, Surangika and Lee, En-Shiun Annie and Prifti Skenduli, Marjana and Shekhar, Ravi and Alam, Mehreen and Kaur, Rishemjit},
+  journal={ACM Computing Surveys},
+  volume={55},
+  number={11},
+  pages={1--37},
+  year={2023},
+  publisher={ACM New York, NY}
+}
+
+@techreport{costa2022no,
+  title={No language left behind: Scaling human-centered machine translation},
+  author={Costa-juss{\`a}, Marta R and Cross, James and {\c{C}}elebi, Onur and Elbayad, Maha and Heafield, Kenneth and Heffernan, Kevin and Kalbassi, Elahe and Lam, Janice and Licht, Daniel and Maillard, Jean and others},
+  year={2022},
+  institution={Meta AI},
+  url = {https://research.facebook.com/publications/no-language-left-behind/}
+}
+
+
+@article{goyal2022flores,
+  title={The flores-101 evaluation benchmark for low-resource and multilingual machine translation},
+  author={Goyal, Naman and Gao, Cynthia and Chaudhary, Vishrav and Chen, Peng-Jen and Wenzek, Guillaume and Ju, Da and Krishnan, Sanjana and Ranzato, Marc’Aurelio and Guzm{\'a}n, Francisco and Fan, Angela},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={10},
+  pages={522--538},
+  year={2022},
+  publisher={MIT Press}
+}
+
+@inproceedings{zhang-etal-2019-curriculum,
+    title = "Curriculum Learning for Domain Adaptation in Neural Machine Translation",
+    author = "Zhang, Xuan  and
+      Shapiro, Pamela  and
+      Kumar, Gaurav  and
+      McNamee, Paul  and
+      Carpuat, Marine  and
+      Duh, Kevin",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1189",
+    doi = "10.18653/v1/N19-1189",
+    pages = "1903--1915",
+    abstract = "We introduce a curriculum learning approach to adapt generic neural machine translation models to a specific domain. Samples are grouped by their similarities to the domain of interest and each group is fed to the training algorithm with a particular schedule. This approach is simple to implement on top of any neural framework or architecture, and consistently outperforms both unadapted and adapted baselines in experiments with two distinct domains and two language pairs.",
+}
+
+@article{saunders2022domain,
+  title={Domain adaptation and multi-domain adaptation for neural machine translation: A survey},
+  author={Saunders, Danielle},
+  journal={Journal of Artificial Intelligence Research},
+  volume={75},
+  pages={351--424},
+  year={2022}
+}
+
+@inproceedings{luong-etal-2015-effective,
+    title = "Effective Approaches to Attention-based Neural Machine Translation",
+    author = "Luong, Thang  and
+      Pham, Hieu  and
+      Manning, Christopher D.",
+    booktitle = "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing",
+    month = sep,
+    year = "2015",
+    address = "Lisbon, Portugal",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D15-1166",
+    doi = "10.18653/v1/D15-1166",
+    pages = "1412--1421",
+}
+
+@article{sutskever2014sequence,
+  title={Sequence to sequence learning with neural networks},
+  author={Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V},
+  journal={Advances in neural information processing systems},
+  volume={27},
+  year={2014}
+}
+
+@inproceedings{niehues-etal-2017-analyzing,
+    title = "Analyzing Neural {MT} Search and Model Performance",
+    author = "Niehues, Jan  and
+      Cho, Eunah  and
+      Ha, Thanh-Le  and
+      Waibel, Alex",
+    booktitle = "Proceedings of the First Workshop on Neural Machine Translation",
+    month = aug,
+    year = "2017",
+    address = "Vancouver",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W17-3202",
+    doi = "10.18653/v1/W17-3202",
+    pages = "11--17",
+    abstract = "In this paper, we offer an in-depth analysis about the modeling and search performance. We address the question if a more complex search algorithm is necessary. Furthermore, we investigate the question if more complex models which might only be applicable during rescoring are promising. By separating the search space and the modeling using n-best list reranking, we analyze the influence of both parts of an NMT system independently. By comparing differently performing NMT systems, we show that the better translation is already in the search space of the translation systems with less performance. This results indicate that the current search algorithms are sufficient for the NMT systems. Furthermore, we could show that even a relatively small $n$-best list of 50 hypotheses already contain notably better translations.",
+}
+
+@inproceedings{welleck-etal-2020-consistency,
+    title = "Consistency of a Recurrent Language Model With Respect to Incomplete Decoding",
+    author = "Welleck, Sean  and
+      Kulikov, Ilia  and
+      Kim, Jaedeok  and
+      Pang, Richard Yuanzhe  and
+      Cho, Kyunghyun",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.448",
+    doi = "10.18653/v1/2020.emnlp-main.448",
+    pages = "5553--5568",
+    abstract = "Despite strong performance on a variety of tasks, neural sequence models trained with maximum likelihood have been shown to exhibit issues such as length bias and degenerate repetition. We study the related issue of receiving infinite-length sequences from a recurrent language model when using common decoding algorithms. To analyze this issue, we first define inconsistency of a decoding algorithm, meaning that the algorithm can yield an infinite-length sequence that has zero probability under the model. We prove that commonly used incomplete decoding algorithms {--} greedy search, beam search, top-k sampling, and nucleus sampling {--} are inconsistent, despite the fact that recurrent language models are trained to produce sequences of finite length. Based on these insights, we propose two remedies which address inconsistency: consistent variants of top-k and nucleus sampling, and a self-terminating recurrent language model. Empirical results show that inconsistency occurs in practice, and that the proposed methods prevent inconsistency.",
+}
+
+@inproceedings{DBLP:conf/iclr/BelinkovB18,
+  author       = {Yonatan Belinkov and
+                  Yonatan Bisk},
+  title        = {Synthetic and Natural Noise Both Break Neural Machine Translation},
+  booktitle    = {6th International Conference on Learning Representations, {ICLR} 2018,
+                  Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings},
+  publisher    = {OpenReview.net},
+  year         = {2018},
+  url          = {https://openreview.net/forum?id=BJ8vJebC-},
+  timestamp    = {Thu, 04 Apr 2019 13:20:09 +0200},
+  biburl       = {https://dblp.org/rec/conf/iclr/BelinkovB18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{durrani2019one,
+  title={One size does not fit all: Comparing NMT representations of different granularities},
+  author={Durrani, Nadir and Dalvi, Fahim and Sajjad, Hassan and Belinkov, Yonatan and Nakov, Preslav},
+  booktitle={Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},
+  pages={1504--1516},
+  year={2019}
+}
+
+@inproceedings{heigold-etal-2018-robust,
+    title = "How Robust Are Character-Based Word Embeddings in Tagging and {MT} Against Wrod Scramlbing or Randdm Nouse?",
+    author = {Heigold, Georg  and
+      Varanasi, Stalin  and
+      Neumann, G{\"u}nter  and
+      van Genabith, Josef},
+    booktitle = "Proceedings of the 13th Conference of the Association for Machine Translation in the {A}mericas (Volume 1: Research Track)",
+    month = mar,
+    year = "2018",
+    address = "Boston, MA",
+    publisher = "Association for Machine Translation in the Americas",
+    url = "https://aclanthology.org/W18-1807",
+    pages = "68--80",
+}
+
+@inproceedings{specia2020findings,
+  title={Findings of the WMT 2020 shared task on machine translation robustness},
+  author={Specia, Lucia and Li, Zhenhao and Pino, Juan and Chaudhary, Vishrav and Guzm{\'a}n, Francisco and Neubig, Graham and Durrani, Nadir and Belinkov, Yonatan and Koehn, Philipp and Sajjad, Hassan and others},
+  booktitle={Proceedings of the Fifth Conference on Machine Translation},
+  pages={76--91},
+  year={2020}
+}
+
+@inproceedings{bapna-firat-2019-simple,
+    title = "Simple, Scalable Adaptation for Neural Machine Translation",
+    author = "Bapna, Ankur  and
+      Firat, Orhan",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1165",
+    doi = "10.18653/v1/D19-1165",
+    pages = "1538--1548",
+    abstract = "Fine-tuning pre-trained Neural Machine Translation (NMT) models is the dominant approach for adapting to new languages and domains. However, fine-tuning requires adapting and maintaining a separate model for each target task. We propose a simple yet efficient approach for adaptation in NMT. Our proposed approach consists of injecting tiny task specific adapter layers into a pre-trained model. These lightweight adapters, with just a small fraction of the original model size, adapt the model to multiple individual tasks simultaneously. We evaluate our approach on two tasks: (i) Domain Adaptation and (ii) Massively Multilingual NMT. Experiments on domain adaptation demonstrate that our proposed approach is on par with full fine-tuning on various domains, dataset sizes and model capacities. On a massively multilingual dataset of 103 languages, our adaptation approach bridges the gap between individual bilingual models and one massively multilingual model for most language pairs, paving the way towards universal machine translation.",
+}
+
+@inproceedings{DBLP:journals/corr/GoodfellowSS14,
+  author       = {Ian J. Goodfellow and
+                  Jonathon Shlens and
+                  Christian Szegedy},
+  editor       = {Yoshua Bengio and
+                  Yann LeCun},
+  title        = {Explaining and Harnessing Adversarial Examples},
+  booktitle    = {3rd International Conference on Learning Representations, {ICLR} 2015,
+                  San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings},
+  year         = {2015},
+  url          = {https://www.math.ucdavis.edu/~strohmer/courses/270/1412.6572v3.pdf},
+  timestamp    = {Thu, 25 Jul 2019 14:25:38 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/GoodfellowSS14.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{narodytska2017simple,
+  title={Simple Black-Box Adversarial Attacks on Deep Neural Networks.},
+  author={Narodytska, Nina and Kasiviswanathan, Shiva Prasad},
+  booktitle={CVPR Workshops},
+  volume={2},
+  pages={2},
+  year={2017}
+}
+
+@inproceedings{sakaguchi2017robsut,
+  title={Robsut wrod reocginiton via semi-character recurrent neural network},
+  author={Sakaguchi, Keisuke and Duh, Kevin and Post, Matt and Van Durme, Benjamin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={31},
+  year={2017}
+}
+
+
+@inproceedings{anastasopoulos-etal-2019-neural,
+    title = "Neural Machine Translation of Text from Non-Native Speakers",
+    author = "Anastasopoulos, Antonios  and
+      Lui, Alison  and
+      Nguyen, Toan Q.  and
+      Chiang, David",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1311",
+    doi = "10.18653/v1/N19-1311",
+    pages = "3070--3080",
+    abstract = "Neural Machine Translation (NMT) systems are known to degrade when confronted with noisy data, especially when the system is trained only on clean data. In this paper, we show that augmenting training data with sentences containing artificially-introduced grammatical errors can make the system more robust to such errors. In combination with an automatic grammar error correction system, we can recover 1.0 BLEU out of 2.4 BLEU lost due to grammatical errors. We also present a set of Spanish translations of the JFLEG grammar error correction corpus, which allows for testing NMT robustness to real grammatical errors.",
+}
+
+@inproceedings{saunders-byrne-2020-reducing,
+    title = "Reducing Gender Bias in Neural Machine Translation as a Domain Adaptation Problem",
+    author = "Saunders, Danielle  and
+      Byrne, Bill",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.690",
+    doi = "10.18653/v1/2020.acl-main.690",
+    pages = "7724--7736",
+    abstract = "Training data for NLP tasks often exhibits gender bias in that fewer sentences refer to women than to men. In Neural Machine Translation (NMT) gender bias has been shown to reduce translation quality, particularly when the target language has grammatical gender. The recent WinoMT challenge set allows us to measure this effect directly (Stanovsky et al, 2019) Ideally we would reduce system bias by simply debiasing all data prior to training, but achieving this effectively is itself a challenge. Rather than attempt to create a {`}balanced{'} dataset, we use transfer learning on a small set of trusted, gender-balanced examples. This approach gives strong and consistent improvements in gender debiasing with much less computational cost than training from scratch. A known pitfall of transfer learning on new domains is {`}catastrophic forgetting{'}, which we address at adaptation and inference time. During adaptation we show that Elastic Weight Consolidation allows a performance trade-off between general translation quality and bias reduction. At inference time we propose a lattice-rescoring scheme which outperforms all systems evaluated in Stanovsky et al, 2019 on WinoMT with no degradation of general test set BLEU. We demonstrate our approach translating from English into three languages with varied linguistic properties and data availability.",
+}
+
+@article{prates2020assessing,
+  title={Assessing gender bias in machine translation: a case study with google translate},
+  author={Prates, Marcelo OR and Avelar, Pedro H and Lamb, Lu{\'\i}s C},
+  journal={Neural Computing and Applications},
+  volume={32},
+  pages={6363--6381},
+  year={2020},
+  publisher={Springer}
+}
+
+
+@inproceedings{zhao-etal-2017-men,
+    title = "Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints",
+    author = "Zhao, Jieyu  and
+      Wang, Tianlu  and
+      Yatskar, Mark  and
+      Ordonez, Vicente  and
+      Chang, Kai-Wei",
+    booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+    month = sep,
+    year = "2017",
+    address = "Copenhagen, Denmark",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D17-1323",
+    doi = "10.18653/v1/D17-1323",
+    pages = "2979--2989",
+    abstract = "Language is increasingly being used to de-fine rich visual recognition problems with supporting image collections sourced from the web. Structured prediction models are used in these tasks to take advantage of correlations between co-occurring labels and visual input but risk inadvertently encoding social biases found in web corpora. In this work, we study data and models associated with multilabel object classification and visual semantic role labeling. We find that (a) datasets for these tasks contain significant gender bias and (b) models trained on these datasets further amplify existing bias. For example, the activity cooking is over 33{\%} more likely to involve females than males in a training set, and a trained model further amplifies the disparity to 68{\%} at test time. We propose to inject corpus-level constraints for calibrating existing structured prediction models and design an algorithm based on Lagrangian relaxation for collective inference. Our method results in almost no performance loss for the underlying recognition task but decreases the magnitude of bias amplification by 47.5{\%} and 40.5{\%} for multilabel classification and visual semantic role labeling, respectively。",
+}
+
+@inproceedings{cho-etal-2014-learning,
+    title = "Learning Phrase Representations using {RNN} Encoder{--}Decoder for Statistical Machine Translation",
+    author = {Cho, Kyunghyun  and
+      van Merri{\"e}nboer, Bart  and
+      Gulcehre, Caglar  and
+      Bahdanau, Dzmitry  and
+      Bougares, Fethi  and
+      Schwenk, Holger  and
+      Bengio, Yoshua},
+    booktitle = "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})",
+    month = oct,
+    year = "2014",
+    address = "Doha, Qatar",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D14-1179",
+    doi = "10.3115/v1/D14-1179",
+    pages = "1724--1734",
+}
+
+@inproceedings{cho-etal-2014-properties,
+    title = "On the Properties of Neural Machine Translation: Encoder{--}Decoder Approaches",
+    author = {Cho, Kyunghyun  and
+      van Merri{\"e}nboer, Bart  and
+      Bahdanau, Dzmitry  and
+      Bengio, Yoshua},
+    booktitle = "Proceedings of {SSST}-8, Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation",
+    month = oct,
+    year = "2014",
+    address = "Doha, Qatar",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W14-4012",
+    doi = "10.3115/v1/W14-4012",
+    pages = "103--111",
+}
+
+@article{hutchins1997first,
+  title={From first conception to first demonstration: the nascent years of machine translation, 1947--1954. a chronology},
+  author={Hutchins, John},
+  journal={Machine Translation},
+  volume={12},
+  pages={195--252},
+  year={1997},
+  publisher={Springer}
+}
+
+@inproceedings{kalchbrenner-blunsom-2013-recurrent-convolutional,
+    title = "Recurrent Convolutional Neural Networks for Discourse Compositionality",
+    author = "Kalchbrenner, Nal  and
+      Blunsom, Phil",
+    booktitle = "Proceedings of the Workshop on Continuous Vector Space Models and their Compositionality",
+    month = aug,
+    year = "2013",
+    address = "Sofia, Bulgaria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W13-3214",
+    pages = "119--126",
+}
+
+
+@inproceedings{DBLP:journals/corr/BahdanauCB14,
+  author       = {Dzmitry Bahdanau and
+                  Kyunghyun Cho and
+                  Yoshua Bengio},
+  editor       = {Yoshua Bengio and
+                  Yann LeCun},
+  title        = {Neural Machine Translation by Jointly Learning to Align and Translate},
+  booktitle    = {3rd International Conference on Learning Representations, {ICLR} 2015,
+                  San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings},
+  year         = {2015},
+  url          = {https://www.cs.ubc.ca/~amuham01/LING530/papers/bahdanau2014neural.pdf},
+  timestamp    = {Wed, 17 Jul 2019 10:40:54 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BahdanauCB14.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@article{vaswani2017attention,
+  title={Attention is all you need},
+  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  journal={Advances in neural information processing systems},
+  volume={30},
+  year={2017}
+}
+
+@inproceedings{neco1997asynchronous,
+  title={Asynchronous translations with recurrent neural nets},
+  author={Neco, Ramon P and Forcada, Mikel L},
+  booktitle={Proceedings of International Conference on Neural Networks (ICNN'97)},
+  volume={4},
+  pages={2535--2540},
+  year={1997},
+  organization={IEEE}
+}
+
+@article{lee2020impact,
+  title={The impact of using machine translation on EFL students’ writing},
+  author={Lee, Sangmin-Michelle},
+  journal={Computer assisted language learning},
+  volume={33},
+  number={3},
+  pages={157--175},
+  year={2020},
+  publisher={Taylor \& Francis}
+}
+
+@article{khoong2022research,
+  title={A research agenda for using machine translation in clinical medicine},
+  author={Khoong, Elaine C and Rodriguez, Jorge A},
+  journal={Journal of General Internal Medicine},
+  volume={37},
+  number={5},
+  pages={1275--1277},
+  year={2022},
+  publisher={Springer}
+}
+
+@article{hochreiter1997long,
+  title={Long short-term memory},
+  author={Hochreiter, Sepp and Schmidhuber, J{\"u}rgen},
+  journal={Neural computation},
+  volume={9},
+  number={8},
+  pages={1735--1780},
+  year={1997},
+  publisher={MIT press}
+}
+]
+
+@inproceedings{guo-etal-2019-star,
+    title = "Star-Transformer",
+    author = "Guo, Qipeng  and
+      Qiu, Xipeng  and
+      Liu, Pengfei  and
+      Shao, Yunfan  and
+      Xue, Xiangyang  and
+      Zhang, Zheng",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1133",
+    doi = "10.18653/v1/N19-1133",
+    pages = "1315--1325",
+    abstract = "Although Transformer has achieved great successes on many NLP tasks, its heavy structure with fully-connected attention connections leads to dependencies on large training data. In this paper, we present Star-Transformer, a lightweight alternative by careful sparsification. To reduce model complexity, we replace the fully-connected structure with a star-shaped topology, in which every two non-adjacent nodes are connected through a shared relay node. Thus, complexity is reduced from quadratic to linear, while preserving the capacity to capture both local composition and long-range dependency. The experiments on four tasks (22 datasets) show that Star-Transformer achieved significant improvements against the standard Transformer for the modestly sized datasets.",
+}
+
+@ARTICLE{8894858,
+  author={Guo, Qipeng and Qiu, Xipeng and Xue, Xiangyang and Zhang, Zheng},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing}, 
+  title={Low-Rank and Locality Constrained Self-Attention for Sequence Modeling}, 
+  year={2019},
+  volume={27},
+  number={12},
+  pages={2213-2222},
+  doi={10.1109/TASLP.2019.2944078}
+}
+
+@inproceedings{guo2020multi,
+  title={Multi-scale self-attention for text classification},
+  author={Guo, Qipeng and Qiu, Xipeng and Liu, Pengfei and Xue, Xiangyang and Zhang, Zheng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={34},
+  pages={7847--7854},
+  year={2020}
+}
+
+@inproceedings{devlin-etal-2019-bert,
+    title = "{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    author = "Devlin, Jacob  and
+      Chang, Ming-Wei  and
+      Lee, Kenton  and
+      Toutanova, Kristina",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1423",
+    doi = "10.18653/v1/N19-1423",
+    pages = "4171--4186",
+    abstract = "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7{\%} (4.6{\%} absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+}
+
+@inproceedings{dai-etal-2019-transformer,
+    title = "Transformer-{XL}: Attentive Language Models beyond a Fixed-Length Context",
+    author = "Dai, Zihang  and
+      Yang, Zhilin  and
+      Yang, Yiming  and
+      Carbonell, Jaime  and
+      Le, Quoc  and
+      Salakhutdinov, Ruslan",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1285",
+    doi = "10.18653/v1/P19-1285",
+    pages = "2978--2988",
+    abstract = "Transformers have a potential of learning longer-term dependency, but are limited by a fixed-length context in the setting of language modeling. We propose a novel neural architecture Transformer-XL that enables learning dependency beyond a fixed length without disrupting temporal coherence. It consists of a segment-level recurrence mechanism and a novel positional encoding scheme. Our method not only enables capturing longer-term dependency, but also resolves the context fragmentation problem. As a result, Transformer-XL learns dependency that is 80{\%} longer than RNNs and 450{\%} longer than vanilla Transformers, achieves better performance on both short and long sequences, and is up to 1,800+ times faster than vanilla Transformers during evaluation. Notably, we improve the state-of-the-art results of bpc/perplexity to 0.99 on enwiki8, 1.08 on text8, 18.3 on WikiText-103, 21.8 on One Billion Word, and 54.5 on Penn Treebank (without finetuning). When trained only on WikiText-103, Transformer-XL manages to generate reasonably coherent, novel text articles with thousands of tokens. Our code, pretrained models, and hyperparameters are available in both Tensorflow and PyTorch.",
+}
+@inproceedings{chen2020generative,
+  title={Generative pretraining from pixels},
+  author={Chen, Mark and Radford, Alec and Child, Rewon and Wu, Jeffrey and Jun, Heewoo and Luan, David and Sutskever, Ilya},
+  booktitle={International conference on machine learning},
+  pages={1691--1703},
+  year={2020},
+  organization={PMLR}
+}
+
+@inproceedings{DBLP:conf/iclr/RamachandranZL18,
+  author       = {Prajit Ramachandran and
+                  Barret Zoph and
+                  Quoc V. Le},
+  title        = {Searching for Activation Functions},
+  booktitle    = {6th International Conference on Learning Representations, {ICLR} 2018,
+                  Vancouver, BC, Canada, April 30 - May 3, 2018, Workshop Track Proceedings},
+  publisher    = {OpenReview.net},
+  year         = {2018},
+  url          = {https://openreview.net/forum?id=Hkuq2EkPf},
+  timestamp    = {Thu, 04 Apr 2019 13:20:09 +0200},
+  biburl       = {https://dblp.org/rec/conf/iclr/RamachandranZL18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{wenzek2021findings,
+  title={Findings of the WMT 2021 shared task on large-scale multilingual machine translation},
+  author={Wenzek, Guillaume and Chaudhary, Vishrav and Fan, Angela and Gomez, Sahir and Goyal, Naman and Jain, Somya and Kiela, Douwe and Thrush, Tristan and Guzm{\'a}n, Francisco},
+  booktitle={Proceedings of the Sixth Conference on Machine Translation},
+  pages={89--99},
+  year={2021}
+}
+
+@inproceedings{zerva-etal-2022-findings,
+    title = "Findings of the {WMT} 2022 Shared Task on Quality Estimation",
+    author = "Zerva, Chrysoula  and
+      Blain, Fr{\'e}d{\'e}ric  and
+      Rei, Ricardo  and
+      Lertvittayakumjorn, Piyawat  and
+      C. de Souza, Jos{\'e} G.  and
+      Eger, Steffen  and
+      Kanojia, Diptesh  and
+      Alves, Duarte  and
+      Or{\u{a}}san, Constantin  and
+      Fomicheva, Marina  and
+      Martins, Andr{\'e} F. T.  and
+      Specia, Lucia",
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.3",
+    pages = "69--99",
+    abstract = "We report the results of the WMT 2022 shared task on Quality Estimation, in which the challenge is to predict the quality of the output of neural machine translation systems at the word and sentence levels, without access to reference translations. This edition introduces a few novel aspects and extensions that aim to enable more fine-grained, and explainable quality estimation approaches. We introduce an updated quality annotation scheme using Multidimensional Quality Metrics to obtain sentence- and word-level quality scores for three language pairs. We also extend the Direct Assessments and post-edit data (MLQE-PE) to new language pairs: we present a novel and large dataset on English-Marathi, as well as a zero-shot test set on English-Yoruba. Further, we include an explainability sub-task for all language pairs and present a new format of a critical error detection task for two new language pairs. Participants from 11 different teams submitted altogether 991 systems to different task variants and language pairs.",
+}
+
+@inproceedings{bojar2014findings,
+  title={Findings of the 2014 workshop on statistical machine translation},
+  author={Bojar, Ond{\v{r}}ej and Buck, Christian and Federmann, Christian and Haddow, Barry and Koehn, Philipp and Leveling, Johannes and Monz, Christof and Pecina, Pavel and Post, Matt and Saint-Amand, Herve and others},
+  booktitle={Proceedings of the ninth workshop on statistical machine translation},
+  pages={12--58},
+  year={2014}
+}
+
+@inproceedings{buck2016findings,
+  title={Findings of the wmt 2016 bilingual document alignment shared task},
+  author={Buck, Christian and Koehn, Philipp},
+  booktitle={Proceedings of the First Conference on Machine Translation: Volume 2, Shared Task Papers},
+  pages={554--563},
+  year={2016}
+}
+
+@inproceedings{cettolo2016iwslt,
+  title={The IWSLT 2016 evaluation campaign},
+  author={Cettolo, Mauro and Niehues, Jan and St{\"u}ker, Sebastian and Bentivogli, Luisa and Cattoni, Rolando and Federico, Marcello},
+  booktitle={Proceedings of the 13th International Conference on Spoken Language Translation},
+  year={2016}
+}
+
+@inproceedings{ansari2020findings,
+  title={Findings of the IWSLT 2020 evaluation campaign},
+  author={Ansari, Ebrahim and Axelrod, Amittai and Bach, Nguyen and Bojar, Ond{\v{r}}ej and Cattoni, Roldano and Dalvi, Fahim and Durrani, Nadir and Federico, Marcello and Federmann, Christian and Gu, Jiatao and others},
+  booktitle={Proceedings of the 17th International Conference on Spoken Language Translation},
+  pages={1--34},
+  year={2020}
+}
+
+@inproceedings{antonios2022findings,
+  title={Findings of the IWSLT 2022 Evaluation Campaign.},
+  author={Antonios, Anastasopoulos and Loc, Barrault and Bentivogli, Luisa and Boito, Marcely Zanon and Ond{\v{r}}ej, Bojar and Cattoni, Roldano and Anna, Currey and Georgiana, Dinu and Kevin, Duh and Maha, Elbayad and others},
+  booktitle={Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)},
+  pages={98--157},
+  year={2022},
+  organization={Association for Computational Linguistics}
+}
+
+@proceedings{iwslt-2018-international,
+    title = "Proceedings of the 15th International Conference on Spoken Language Translation",
+    editor = "Turchi, Marco  and
+      Niehues, Jan  and
+      Frederico, Marcello",
+    month = oct # " 29-30",
+    year = "2018",
+    address = "Brussels",
+    publisher = "International Conference on Spoken Language Translation",
+    url = "https://aclanthology.org/2018.iwslt-1.0",
+}
+
+@inproceedings{koehn2018findings,
+  title={Findings of the wmt 2018 shared task on parallel corpus filtering},
+  author={Koehn, Philipp and Khayrallah, Huda and Heafield, Kenneth and Forcada, Mikel L},
+  booktitle={Proceedings of the third conference on machine translation: shared task papers},
+  pages={726--739},
+  year={2018}
+}
+
+@inproceedings{hu2020xtreme,
+  title={Xtreme: A massively multilingual multi-task benchmark for evaluating cross-lingual generalisation},
+  author={Hu, Junjie and Ruder, Sebastian and Siddhant, Aditya and Neubig, Graham and Firat, Orhan and Johnson, Melvin},
+  booktitle={International Conference on Machine Learning},
+  pages={4411--4421},
+  year={2020},
+  organization={PMLR}
+}
+
+
+@inproceedings{DBLP:conf/iclr/Gu0XLS18,
+  author       = {Jiatao Gu and
+                  James Bradbury and
+                  Caiming Xiong and
+                  Victor O. K. Li and
+                  Richard Socher},
+  title        = {Non-Autoregressive Neural Machine Translation},
+  booktitle    = {6th International Conference on Learning Representations, {ICLR} 2018,
+                  Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings},
+  publisher    = {OpenReview.net},
+  year         = {2018},
+  url          = {https://openreview.net/forum?id=B1l8BtlCb},
+  timestamp    = {Thu, 25 Jul 2019 14:25:57 +0200},
+  biburl       = {https://dblp.org/rec/conf/iclr/Gu0XLS18.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{lanalbert,
+  author       = {Zhenzhong Lan and
+                  Mingda Chen and
+                  Sebastian Goodman and
+                  Kevin Gimpel and
+                  Piyush Sharma and
+                  Radu Soricut},
+  title        = {{ALBERT:} {A} Lite {BERT} for Self-supervised Learning of Language
+                  Representations},
+  booktitle    = {8th International Conference on Learning Representations, {ICLR} 2020,
+                  Addis Ababa, Ethiopia, April 26-30, 2020},
+  publisher    = {OpenReview.net},
+  year         = {2020},
+  url          = {https://openreview.net/forum?id=H1eA7AEtvS},
+  timestamp    = {Sun, 02 Oct 2022 16:05:32 +0200},
+  biburl       = {https://dblp.org/rec/conf/iclr/LanCGGSS20.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{liu2023pre,
+  title={Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing},
+  author={Liu, Pengfei and Yuan, Weizhe and Fu, Jinlan and Jiang, Zhengbao and Hayashi, Hiroaki and Neubig, Graham},
+  journal={ACM Computing Surveys},
+  volume={55},
+  number={9},
+  pages={1--35},
+  year={2023},
+  publisher={ACM New York, NY}
+}
+@article{zhu2023multilingual,
+  title={Multilingual Machine Translation with Large Language Models: Empirical Results and Analysis},
+  author={Zhu, Wenhao and Liu, Hongyi and Dong, Qingxiu and Xu, Jingjing and Kong, Lingpeng and Chen, Jiajun and Li, Lei and Huang, Shujian},
+  year={2023}
+}
+
+
+@techreport{ghazvininejad2023dictionary,
+  title={Dictionary-based Phrase-level Prompting of Large Language Models for Machine Translation},
+  author={Ghazvininejad, Marjan and Gonen, Hila and Zettlemoyer, Luke},
+  year={2023},
+  institution = {Meta AI}
+}
+
+@article{zhang2023prompting,
+  title={Prompting Large Language Model for Machine Translation: A Case Study},
+  author={Zhang, Biao and Haddow, Barry and Birch, Alexandra},
+  journal={arXiv preprint arXiv:2301.07069},
+  year={2023}
+}
+
+@book{slp2e,
+author = {Jurafsky, Daniel and Martin, James H.},
+title = {Speech and Language Processing (2nd Edition)},
+year = {2009},
+isbn = {0131873210},
+publisher = {Prentice-Hall, Inc.},
+address = {USA}
+}
+
+@article{liu-etal-2020-multilingual-denoising,
+    title = "Multilingual Denoising Pre-training for Neural Machine Translation",
+    author = "Liu, Yinhan  and
+      Gu, Jiatao  and
+      Goyal, Naman  and
+      Li, Xian  and
+      Edunov, Sergey  and
+      Ghazvininejad, Marjan  and
+      Lewis, Mike  and
+      Zettlemoyer, Luke",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "8",
+    year = "2020",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2020.tacl-1.47",
+    doi = "10.1162/tacl_a_00343",
+    pages = "726--742",
+}
+
+@inproceedings{lewis-etal-2020-bart,
+    title = "{BART}: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+    author = "Lewis, Mike  and
+      Liu, Yinhan  and
+      Goyal, Naman  and
+      Ghazvininejad, Marjan  and
+      Mohamed, Abdelrahman  and
+      Levy, Omer  and
+      Stoyanov, Veselin  and
+      Zettlemoyer, Luke",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.703",
+    doi = "10.18653/v1/2020.acl-main.703",
+    pages = "7871--7880",
+    abstract = "We present BART, a denoising autoencoder for pretraining sequence-to-sequence models. BART is trained by (1) corrupting text with an arbitrary noising function, and (2) learning a model to reconstruct the original text. It uses a standard Tranformer-based neural machine translation architecture which, despite its simplicity, can be seen as generalizing BERT (due to the bidirectional encoder), GPT (with the left-to-right decoder), and other recent pretraining schemes. We evaluate a number of noising approaches, finding the best performance by both randomly shuffling the order of sentences and using a novel in-filling scheme, where spans of text are replaced with a single mask token. BART is particularly effective when fine tuned for text generation but also works well for comprehension tasks. It matches the performance of RoBERTa on GLUE and SQuAD, and achieves new state-of-the-art results on a range of abstractive dialogue, question answering, and summarization tasks, with gains of up to 3.5 ROUGE. BART also provides a 1.1 BLEU increase over a back-translation system for machine translation, with only target language pretraining. We also replicate other pretraining schemes within the BART framework, to understand their effect on end-task performance.",
+}
+
+
+@article{fan2021beyond,
+  title={Beyond english-centric multilingual machine translation},
+  author={Fan, Angela and Bhosale, Shruti and Schwenk, Holger and Ma, Zhiyi and El-Kishky, Ahmed and Goyal, Siddharth and Baines, Mandeep and Celebi, Onur and Wenzek, Guillaume and Chaudhary, Vishrav and others},
+  journal={The Journal of Machine Learning Research},
+  volume={22},
+  number={1},
+  pages={4839--4886},
+  year={2021},
+  publisher={JMLRORG}
+}
+
+@inproceedings{shatz2017native,
+  title={Native language influence during second language acquisition: A large-scale learner corpus analysis},
+  author={Shatz, Itamar},
+  booktitle={Proceedings of the Pacific Second Language Research Forum (PacSLRF 2016)},
+  pages={175--180},
+  year={2017}
+}
+
+@inproceedings{zoph-knight-2016-multi,
+    title = "Multi-Source Neural Translation",
+    author = "Zoph, Barret  and
+      Knight, Kevin",
+    booktitle = "Proceedings of the 2016 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2016",
+    address = "San Diego, California",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N16-1004",
+    doi = "10.18653/v1/N16-1004",
+    pages = "30--34",
+}
+
+@ARTICLE{5288526,
+
+  author={Pan, Sinno Jialin and Yang, Qiang},
+
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+
+  title={A Survey on Transfer Learning}, 
+
+  year={2010},
+
+  volume={22},
+
+  number={10},
+
+  pages={1345-1359},
+
+  doi={10.1109/TKDE.2009.191}}
+
+
+@article{johnson-etal-2017-googles,
+    title = "{G}oogle{'}s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation",
+    author = "Johnson, Melvin  and
+      Schuster, Mike  and
+      Le, Quoc V.  and
+      Krikun, Maxim  and
+      Wu, Yonghui  and
+      Chen, Zhifeng  and
+      Thorat, Nikhil  and
+      Vi{\'e}gas, Fernanda  and
+      Wattenberg, Martin  and
+      Corrado, Greg  and
+      Hughes, Macduff  and
+      Dean, Jeffrey",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "5",
+    year = "2017",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/Q17-1024",
+    doi = "10.1162/tacl_a_00065",
+    pages = "339--351",
+    abstract = "We propose a simple solution to use a single Neural Machine Translation (NMT) model to translate between multiple languages. Our solution requires no changes to the model architecture from a standard NMT system but instead introduces an artificial token at the beginning of the input sentence to specify the required target language. Using a shared wordpiece vocabulary, our approach enables Multilingual NMT systems using a single model. On the WMT{'}14 benchmarks, a single multilingual model achieves comparable performance for English→French and surpasses state-of-theart results for English→German. Similarly, a single multilingual model surpasses state-of-the-art results for French→English and German→English on WMT{'}14 and WMT{'}15 benchmarks, respectively. On production corpora, multilingual models of up to twelve language pairs allow for better translation of many individual pairs. Our models can also learn to perform implicit bridging between language pairs never seen explicitly during training, showing that transfer learning and zero-shot translation is possible for neural translation. Finally, we show analyses that hints at a universal interlingua representation in our models and also show some interesting examples when mixing languages.",
+}
+
+@inproceedings{guzman-etal-2019-flores,
+    title = "The {FLORES} Evaluation Datasets for Low-Resource Machine Translation: {N}epali{--}{E}nglish and {S}inhala{--}{E}nglish",
+    author = "Guzm{\'a}n, Francisco  and
+      Chen, Peng-Jen  and
+      Ott, Myle  and
+      Pino, Juan  and
+      Lample, Guillaume  and
+      Koehn, Philipp  and
+      Chaudhary, Vishrav  and
+      Ranzato, Marc{'}Aurelio",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1632",
+    doi = "10.18653/v1/D19-1632",
+    pages = "6098--6111",
+    abstract = "For machine translation, a vast majority of language pairs in the world are considered low-resource because they have little parallel data available. Besides the technical challenges of learning with limited supervision, it is difficult to evaluate methods trained on low-resource language pairs because of the lack of freely and publicly available benchmarks. In this work, we introduce the FLORES evaluation datasets for Nepali{--}English and Sinhala{--} English, based on sentences translated from Wikipedia. Compared to English, these are languages with very different morphology and syntax, for which little out-of-domain parallel data is available and for which relatively large amounts of monolingual data are freely available. We describe our process to collect and cross-check the quality of translations, and we report baseline performance using several learning settings: fully supervised, weakly supervised, semi-supervised, and fully unsupervised. Our experiments demonstrate that current state-of-the-art methods perform rather poorly on this benchmark, posing a challenge to the research community working on low-resource MT. Data and code to reproduce our experiments are available at https://github.com/facebookresearch/flores.",
+}
+

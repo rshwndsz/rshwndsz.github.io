@@ -41,6 +41,16 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-bibliography`,
+            options: {},
+          },
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              strict: `ignore`
+            }
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,
@@ -52,6 +62,7 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          `gatsby-remark-autolink-headers`,
           `gatsby-remark-prismjs`,
         ],
       },

@@ -1,12 +1,15 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import {Link, graphql} from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import "katex/dist/katex.min.css"
+
+
 const BlogPostTemplate = ({
-  data: { previous, next, site, markdownRemark: post },
+  data: {previous, next, site, markdownRemark: post},
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
@@ -23,7 +26,7 @@ const BlogPostTemplate = ({
           <p>{post.frontmatter.date}</p>
         </header>
         <section
-          dangerouslySetInnerHTML={{ __html: post.html }}
+          dangerouslySetInnerHTML={{__html: post.html}}
           itemProp="articleBody"
         />
         <hr />
@@ -61,7 +64,7 @@ const BlogPostTemplate = ({
   )
 }
 
-export const Head = ({ data: { markdownRemark: post } }) => {
+export const Head = ({data: {markdownRemark: post}}) => {
   return (
     <Seo
       title={post.frontmatter.title}
