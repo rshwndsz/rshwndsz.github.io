@@ -1,5 +1,5 @@
 ---
-title: "A survey on Machine Translation"
+title: "A survey of Machine Translation"
 bibliography: bibliography.bib
 link-citations: true
 notes-after-punctuation: true
